@@ -46,7 +46,7 @@ namespace BackendExam
             return m_Faker.Lorem.Sentence(m_Faker.Random.Int(0, 100), m_Faker.Random.Int(0, 100));
         }
 
-        public void DecodeData(string i_Data)
+        public void DecodeData(ReceivedDataItem i_Data)
         {
             var processingDelay = TimeSpan.FromMilliseconds(m_Faker.Random.Int(10, 300)); //Simulated text decoder that completed in 10 to 300 ms
             Thread.Sleep(processingDelay);
