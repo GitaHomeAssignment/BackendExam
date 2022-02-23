@@ -11,3 +11,5 @@ DecodeData method will take 10 to 300 milliseconds to complete.
 
 Fill free to change the collection type and other components if needed.
 
+#Please don't pull request to the repository
+
